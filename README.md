@@ -48,7 +48,7 @@ Database:
 
 - RDBMS design and DDL script
 
-- ORM implementation with Transaction management
+- ORM implementation with transaction management
 
 ### Single Page Application / User Interface:
 
@@ -58,7 +58,7 @@ Database:
 
 ### Unit testing:
 
-Unit testing (Automation using Framework i.e., Junit, NUnit.. etc., Test case depth i.e. coverage, addressing positive, negative scenarios… etc.)
+Unit testing (Automation via Junit; Test case depth, see: coverage, addressing positive and negative scenarios, etc.)
 
 ### Asynchronous processing (optional):
 
