@@ -1,3 +1,9 @@
 package com.johnoro.cpm.repository;
 
-public interface ProjectRepository extends BaseRepository<Project> { }
+import com.johnoro.cpm.model.Project;
+
+import java.util.List;
+
+public interface ProjectRepository extends BaseRepository<Project> {
+    List<Project> findAllByClientId(Long clientId);
+}

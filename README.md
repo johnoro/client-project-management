@@ -1,30 +1,32 @@
 # Client and Project Management Application
 
+Currently a work in progress.
+
 ## M.V.P. (Minimum Viable Product):
 
-• Add / update clients; should be able to add / update one or more projects under each client.
+- [ ] Add / update clients; should be able to add / update one or more projects under each client.
 
-• Register new client functionality; should accept signed agreement as a mandatory attachment (should accept only PDF).
+- [ ] Register new client functionality; should accept signed agreement as a mandatory attachment (should accept only PDF).
 
-• View client and its projects.
+- [ ] View client and its projects.
 
-• Cancel projects.
+- [ ] Cancel projects.
 
 ## Stretch:
 
-• Notification: Asynchronous email notifications on successful project creation and cancelation.
+- [ ] Notification: Asynchronous email notifications on successful project creation and cancelation.
 
 ## Major Technologies:
 
-• Spring Boot
+- Spring Boot
 
-• Hibernate
+- Hibernate
 
-• JPA
+- JPA
 
-• MySQL
+- MySQL
 
-• React
+- React
 
 ## Deliverables:
 

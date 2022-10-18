@@ -10,8 +10,6 @@ import java.util.List;
 // TODO: figure out if this annotation works here or should be moved to the implementing classes
 @Service
 public class BaseServiceImpl<T> implements BaseService<T> {
-    // TODO: figure out if this flow of autowiring is correct
-    @Autowired
     private BaseRepository<T> repository;
 
     public BaseServiceImpl(BaseRepository<T> repository) {
@@ -29,8 +27,8 @@ public class BaseServiceImpl<T> implements BaseService<T> {
     }
 
     @Override
-    public void delete(Long id) {
-        repository.delete(id);
+    public void deleteById(Long id) {
+        repository.deleteById(id);
     }
 
     @Override
