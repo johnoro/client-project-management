@@ -1,3 +1,6 @@
+.env
+
+### Spring Boot & Maven ###
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
